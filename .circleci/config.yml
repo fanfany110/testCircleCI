@@ -1,3 +1,5 @@
-test:
+version: 2
+jobs:
+  build:
   override:
     - phpunit SampleTest
